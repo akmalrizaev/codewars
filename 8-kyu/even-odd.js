@@ -1,6 +1,6 @@
 // Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
-function Even_Odd(a) {
+function evenOrOdd(a) {
     if (Math.abs(a % 2) > 0) {
         return "Odd";
     } 
@@ -9,9 +9,9 @@ function Even_Odd(a) {
     
 
 
-console.log(Even_Odd(0));
-console.log(Even_Odd(1));
-console.log(Even_Odd(2));
-console.log(Even_Odd(0));
-console.log(Even_Odd(-1));
-console.log(Even_Odd(-2));
+console.log(evenOrOdd(0));
+console.log(evenOrOdd(1));
+console.log(evenOrOdd(2));
+console.log(evenOrOdd(0));
+console.log(evenOrOdd(-1));
+console.log(evenOrOdd(-2));
